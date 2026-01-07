@@ -12,16 +12,7 @@ function getNumbers() {
 }
 
 // Perform the calculation based on the operation
-function calculate(operation, num1, num2) {
-  s
 
-      return num1 * num2;
-    case '/':
-      // Check for division by zero
-      if (num2 === 0) {
-        
-        return "Cannot divide by zero";
-      }
       return num1 / num2;
     default:
       return "Invalid operation";
